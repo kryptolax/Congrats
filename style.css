@@ -1,0 +1,84 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	background-color: black;
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+.click-me{
+  cursor: pointer
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.middle-row {
+	height: 59.2%;
+	width: 100%;
+	display: flex;
+}
+
+.top-row {
+	height: 19.8%;
+	width: 100%;
+	display: flex;
+}
+
+.bottom-row {
+	height: 21%;
+	width: 100%;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.column-top {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+}
+
+
+
+.column-middle {
+  height: 100%;
+  width: calc(100%/3);
+  display: block
+}
+
+
+
+
+
+.column-bottom {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+}
