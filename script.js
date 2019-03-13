@@ -90,8 +90,8 @@ function winning(){
 }
 
 function goingHome(){
-  //document.getElementById('big_b').removeEventListener("click", goingHome);
-  //document.getElementById('big_b').classList.remove('click-me');
+  document.getElementById('big_b').removeEventListener("click", goingHome);
+  document.getElementById('big_b').classList.remove('click-me');
   liftingOff();
   playShooting();
   setTimeout(startingUp, 3000);
