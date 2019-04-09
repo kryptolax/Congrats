@@ -13,7 +13,7 @@ function playShooting(){
 }
 
 function restartRooms(){
-  document.location.href = "https://leahtorres.github.io/phase8/index1.html"
+  document.location.href = "https://leahtorres.github.io/phase9/index1.html"
 }
 
 function aliens(){
